@@ -1,0 +1,37 @@
+.btn {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.counterTitle {
+    color: #0066b2;
+    margin: 0px;
+}
+
+.counterDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & h2 {
+        font-size: 2rem;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: auto;
+        padding: 0.5rem;
+    }
+}
+
+.reset-btn {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: gray;
+    width: 150px;
+}
